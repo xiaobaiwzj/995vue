@@ -1,0 +1,12 @@
+//   用来配置 @ 配置路径之类的
+
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*":["src/*"]
+
+    }
+  },
+  "exclude": ["node_modules","dist"]
+}
